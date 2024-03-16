@@ -135,9 +135,9 @@ header {
     font-size: calc(1vw + 40px);
 }
 .person img {
-    width: 150px;
+    width: 250px;
     border-radius: 50%;
-    height: 150px;
+    height: 250px;
 }
 .person {
     display: block;
