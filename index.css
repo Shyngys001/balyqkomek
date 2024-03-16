@@ -6,6 +6,10 @@ a {
     text-decoration: none;
 }
 
+a, button {
+    cursor: pointer;
+}
+
 .head img {
     width: 90px;
 }
@@ -118,6 +122,30 @@ header {
     background-color: greenyellow;
     border-radius: 10px;
     border: none;
+}
+
+#friends{
+    text-align: center;
+}
+#druzya {
+    font-size: calc(1vw + 40px);
+}
+.person img {
+    width: 150px;
+    border-radius: 50%;
+    height: 150px;
+}
+.person {
+    display: block;
+}
+#name {
+    color: rgb(0, 94, 77);
+}
+.people {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+    justify-content: center;
 }
 
 
