@@ -163,5 +163,8 @@ header {
 
     .about_sec {
     }
+    .people {
+        gap: 50px;
+    }
     
 }
