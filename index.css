@@ -1,0 +1,126 @@
+body {
+    margin: 0 auto;
+}
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.head img {
+    width: 90px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: wheat;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+.head_sec {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+#main {
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 80vh;
+    background-image: url('');
+    background-color: rgb(17, 43, 128);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.middle {
+}
+
+.middle p {
+    color: aliceblue;
+}
+
+#dari {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: calc(1vw + 40px);
+}
+
+#vashfond {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: calc(1vw + 20px);
+}
+
+.pomosh {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.pomosh button {
+    border: none;
+    border-radius: 10px;
+    font-size: calc(1vw + 10px);
+
+}
+
+.button_pomosh {
+    background-color: greenyellow;
+}
+
+.button_join {
+    background-color: rgb(210, 192, 192);
+}
+
+#about {
+    text-align: center;
+}
+#aboutfond {
+    font-size: calc(1vw + 30px);
+}
+.about_sec {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#nash {
+    width: 40%;
+    font-size: calc(1vw + 7px);
+    text-align: start;
+}
+
+.nash_photos {
+    width: 40%;
+    display: block;
+}
+
+.nash_photos img{
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.button_pomosh2 {
+    background-color: greenyellow;
+    border-radius: 10px;
+    border: none;
+}
+
+
+@media(max-width: 900px) {
+    header {
+    }
+}
