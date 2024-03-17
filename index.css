@@ -126,6 +126,8 @@ header {
     background-color: greenyellow;
     border-radius: 10px;
     border: none;
+    font-size: calc(1vw + 10px);
+
 }
 
 #friends{
@@ -572,5 +574,8 @@ body .container .card .box .content a:hover {
   .top-nav {
     display: flex;
   }
+  .nash_photos img{
+    width: 80%;
+}
 }
 
