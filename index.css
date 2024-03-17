@@ -130,6 +130,7 @@ header {
 
 #friends{
     text-align: center;
+    
 }
 #druzya {
     font-size: calc(1vw + 40px);
@@ -269,6 +270,24 @@ body .container .card .box .content a:hover {
   color: #000;
 }
 
+#support img {
+  margin: 0 auto;
+  width: 40%;
+  text-align: center;
+}
+
+#support {
+  text-align: center;
+}
+
+#support p {
+  font-size: calc(1vw + 30px);
+}
+
+
+#mission {
+  background-color: #e0e3e6;
+}
 
 
 @media(max-width: 900px) {
