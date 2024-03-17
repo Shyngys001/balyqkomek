@@ -1,5 +1,6 @@
 body {
     margin: 0 auto;
+    
 }
 a {
     color: rgb(0, 0, 0);
@@ -38,8 +39,7 @@ header {
     padding-left: 150px;
     padding-right: 150px;
     height: 80vh;
-    background-image: url('');
-    background-color: #3586ff;
+    background-image: url('img/water.svg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -61,12 +61,16 @@ header {
     text-transform: uppercase;
     text-align: center;
     font-size: calc(1vw + 40px);
+  font-weight: 800;
+
 }
 
 #vashfond {
     text-transform: uppercase;
     text-align: center;
     font-size: calc(1vw + 20px);
+  font-weight: 800;
+
 }
 
 .pomosh {
@@ -96,6 +100,8 @@ header {
 }
 #aboutfond {
     font-size: calc(1vw + 30px);
+  font-weight: 800;
+
 }
 .about_sec {
     display: flex;
@@ -136,6 +142,8 @@ header {
 }
 #druzya {
     font-size: calc(1vw + 40px);
+  font-weight: 800;
+
 }
 .person img {
     width: 250px;
@@ -160,6 +168,8 @@ header {
 #glavnyi {
   font-size: calc(1vw + 30px);
   text-align: center;
+  font-weight: 800;
+
 }
 
 
@@ -284,6 +294,8 @@ body .container .card .box .content a:hover {
 
 #support p {
   font-size: calc(1vw + 30px);
+  font-weight: 800;
+
 }
 
 
